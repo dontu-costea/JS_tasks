@@ -22,9 +22,9 @@ document.addEventListener('keydown', function (e) {
     busMoveY += 50;
     bus.style.top = busMoveY + "px";
   } else if (e.keyCode == 8) {
-    lastChange = changesList[changesList - 1];
-    console.log(JSON.parse(lastChange));
-    console.log((lastChange));
+    lastChange = changesList.slice(-1);
+    console.log(lastChange);
+    console.log(typeof(lastChange));
   }
 })
 
