@@ -9,13 +9,15 @@ body {
 }
 .bus__block {
 	position: relative;
+	left: -25px;
+	top: -25px;
 }
 #bus, img {
 	width: 50px;
 }
 #bus {
 	position: absolute;
-	left: -25px;
-	top: -25px;
+	left: -0px;
+	top: -0px;
 	transition: 0.5s all ease;
 }
